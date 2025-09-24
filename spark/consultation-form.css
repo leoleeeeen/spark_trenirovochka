@@ -1,0 +1,67 @@
+.consultation-form {
+    display: inline-flex;
+    width: 1140px;
+    padding: 40px;
+    justify-content: center;
+    border-radius: 16px;
+    background-image: linear-gradient(rgb(23 75 118 /1), rgb(13 19 35 /0));
+}
+
+.form-content {
+    display: inline-flex;
+    flex-wrap: wrap;
+    row-gap: 28px;
+    width: 1040px;
+}
+
+.form-description-text-sparkle {
+    display: inline-flex;
+    column-gap: 12px;
+}
+
+.form-description-text {
+    width: 868px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    row-gap: 24px;
+}
+
+.form-sparkle {
+    width: 150px;
+}
+
+.form-inputs-button {
+    display: inline-flex;
+    width: 1040px;
+    column-gap: 32px;
+    align-items: flex-end;
+}
+
+.label-input {
+    display: block;
+    width: 240px;
+}
+
+.input {
+    width: 240px;
+    height: 52px;
+    margin-top: 8px;
+    background-color: var(--color-white);
+    border-radius: 16px;
+    padding: 12px;
+    font-size: var(--font-size-body);
+    font-family: var(--font-family-nums);
+}
+
+a.link {
+    text-decoration-line: underline;
+    text-decoration-thickness: from-font;
+}
+
+a.link:hover {
+    color: var(--color-yellow);
+}
+
+a.link:active {
+    color: var(--color-yellow-dark);
+}

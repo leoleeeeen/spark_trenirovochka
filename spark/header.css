@@ -1,0 +1,39 @@
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1140px;
+    height: 36px;
+    margin-top: 36px;
+    margin-inline: auto;
+    z-index: 1;
+}
+
+.logo {
+    font-family: var(--font-family-logo);
+    font-size: 28px;
+    width: 86px;
+    height: 36px;
+    line-height: 1.2;
+    color: var(--color-yellow);
+}
+
+.links {
+    display: inline-flex;
+    gap: 60px;
+}
+
+a.menu-link {
+    font-family: var(--font-family-text-bold);
+    font-size: var(--font-size-body);
+    line-height: 1.5;
+    color: var(--color-white);
+}
+
+a.menu-link:hover {
+    color: var(--color-yellow);
+}
+
+a.menu-link:active {
+    color: var(--color-yellow-dark);
+}
