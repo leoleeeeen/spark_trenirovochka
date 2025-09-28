@@ -1,5 +1,4 @@
-.h1 {
-    width: 1140px;
+.heading-1 {
     font-family: var(--font-family-heading);
     font-size: 76px;
     line-height: 1.1;
@@ -9,30 +8,30 @@
 
 .hero-section {
     background-image: linear-gradient(rgb(0 0 0 /0.2), rgb(0 0 0 /0.2)), url(img/background-banner.png);
-    background-size: 100% auto;
-    /* background-position: 0px -110px; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100vw;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .header-banner-content {
     position: relative;
-    width: 1140px;
-    display: inline-flex;
+    width: var(--content-width);
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .banner-content {
-    display: inline-flex;
-    width: 1140px;
-    row-gap: 106px;
+    display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    gap: 106px;
     margin-top: 140px;
     padding-bottom: 66px;
-    z-index: 0;
 }
 
 .body-text {
@@ -56,26 +55,25 @@
 }
 
 .banner-text {
-    display: inline-flex;
-    row-gap: 24px;
+    display: flex;
     flex-wrap: wrap;
+    gap: 24px;
 }
 
 .banner-buttons-links {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    row-gap: 52px;
+    gap: 52px;
 }
 
 .banner-buttons {
-    display: inline-flex;
-    column-gap: 20px;
+    display: flex;
     justify-content: end;
+    gap: 20px;
 }
 
 .button-main-link {
-    display: inline-block;
     width: auto;
     height: 52px;
     padding: 12px 40px;
@@ -96,7 +94,6 @@
 }
 
 .button-outline-link {
-    display: inline-block;
     padding: 12px 40px;
     width: 280px;
     height: 52px;
@@ -124,7 +121,7 @@
 }
 
 .social-media-buttons {
-    display: inline-flex;
+    display: flex;
     column-gap: 20px;
     justify-content: flex-end;
 }

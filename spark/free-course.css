@@ -1,17 +1,13 @@
 .free-course {
     display: flex;
-    width: 1140px;
-    margin-top: auto;
-    /* justify-content: center; */
     flex-wrap: wrap;
-    row-gap: 32px;
+    gap: 32px;
 }
 
 .course-description {
-    display: inline-flex;
-    width: 1140px;
-    justify-content: space-between;
+    display: flex;
     padding: 40px;
+    gap: 22px;
     background: none;
     border-radius: 16px;
     border-width: 2px;
@@ -20,23 +16,21 @@
 }
 
 .free-course-text-button {
-    display: inline-flex;
+    display: flex;
     width: 770px;
-    row-gap: 76px;
+    gap: 76px;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
 
 .free-course-text {
-    display: inline-flex;
-    width: 770px;
-    row-gap: 16px;
+    display: flex;
+    gap: 16px;
     flex-wrap: wrap;
 }
 
 .free-course-pic-container {
     width: 264px;
-    height: auto;
     padding: 20px 16px;
     background-color: var(--color-blue-cards);
     border-radius: 16px;

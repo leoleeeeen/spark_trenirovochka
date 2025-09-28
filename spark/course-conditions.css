@@ -1,17 +1,14 @@
 .course-conditions {
     display: flex;
-    width: 1140px;
-    margin-top: auto;
     justify-content: center;
     flex-wrap: wrap;
     row-gap: 160px;
 }
 
 .condition-cards {
-    display: inline-flex;
+    display: flex;
     width: 1140px;
-    height: 190px;
-    column-gap: 50px;
+    gap: 50px;
     position: relative;
     left: 18px;
 }
@@ -27,14 +24,13 @@
 }
 
 .condition-card {
-    width: 340px;
     background-color: var(--color-blue-cards);
     padding: 32px 16px;
     border-radius: 16px;
-    display: inline-flex;
+    gap: 8px;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    row-gap: 8px;
     position: relative;
     z-index: 1;
 }
@@ -48,7 +44,6 @@
 }
 
 .background-outline {
-    width: 340px;
     height: 170px;
     background: none;
     border-radius: 16px;
@@ -76,7 +71,7 @@
     color: var(--color-white);
 }
 
-.h6 {
+.heading-6 {
     font-family: var(--font-family-heading);
     font-size: 24px;
     line-height: 1.2;
@@ -89,7 +84,6 @@
 
 .condition-pic-1 {
     width: 240px;
-    height: auto;
     z-index: 3;
     position: relative;
     bottom: 360px;
@@ -98,7 +92,6 @@
 
 .condition-pic-2 {
     width: 300px;
-    height: auto;
     z-index: 3;
     position: relative;
     bottom: 390px;
@@ -107,7 +100,6 @@
 
 .condition-pic-3 {
     width: 168px;
-    height: auto;
     z-index: 3;
     position: relative;
     bottom: 324px;

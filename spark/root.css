@@ -115,6 +115,7 @@ input[type='file'] {
 
 body {
     background-color: var(--color-blue-background);
+    overflow-x: hidden;
 }
 
 /* styles */
@@ -143,12 +144,6 @@ body {
     src: url(fonts/Inter-LightBETA.woff2);
 }
 
-html {
-    display: flex;
-    justify-content: center;
-}
-
-
 :root {
     --font-family-heading: 'Ermilov-Bold';
     --font-family-text-bold: 'Raleway-Bold';
@@ -157,6 +152,7 @@ html {
     --font-family-nums: 'Inter-Light';
 
     --font-size-body: 20px;
+    --content-width: 1140px;
 
     --color-yellow: #FDCC33;
     --color-yellow-light: #F9E27F;

@@ -1,6 +1,5 @@
 .consultation-form {
-    display: inline-flex;
-    width: 1140px;
+    display: flex;
     padding: 40px;
     justify-content: center;
     border-radius: 16px;
@@ -8,22 +7,21 @@
 }
 
 .form-content {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
-    row-gap: 28px;
-    width: 1040px;
+    gap: 28px;
 }
 
 .form-description-text-sparkle {
-    display: inline-flex;
+    display: flex;
     column-gap: 12px;
 }
 
 .form-description-text {
     width: 868px;
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
-    row-gap: 24px;
+    gap: 24px;
 }
 
 .form-sparkle {
@@ -31,19 +29,15 @@
 }
 
 .form-inputs-button {
-    display: inline-flex;
-    width: 1040px;
-    column-gap: 32px;
+    display: flex;
+    justify-content: space-between;
     align-items: flex-end;
-}
-
-.label-input {
-    display: block;
-    width: 240px;
+    flex: 1;
 }
 
 .input {
-    width: 240px;
+    display: flex;
+    width: 244px;
     height: 52px;
     margin-top: 8px;
     background-color: var(--color-white);
@@ -58,10 +52,10 @@ a.link {
     text-decoration-thickness: from-font;
 }
 
-a.link:hover {
+.link:hover {
     color: var(--color-yellow);
 }
 
-a.link:active {
+.link:active {
     color: var(--color-yellow-dark);
 }

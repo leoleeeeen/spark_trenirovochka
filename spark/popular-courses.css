@@ -1,16 +1,14 @@
 .popular-courses {
     display: flex;
-    width: 1140px;
-    margin-top: auto;
     justify-content: center;
     flex-wrap: wrap;
-    row-gap: 40px;
+    gap: 40px;
 }
 
 .course-cards {
-    width: 1140px;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
+    gap: 32px;
 }
 
 .course-card-pic {
@@ -29,7 +27,7 @@
     padding: 20px;
     border-radius: 16px;
     background-image: linear-gradient(rgb(23 75 118 /1), rgb(13 19 35 /0));
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -42,7 +40,7 @@
     text-transform: uppercase;
 }
 
-.h4 {
+.heading-4 {
     font-family: var(--font-family-heading);
     font-size: 36px;
     line-height: 1.1;
