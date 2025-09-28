@@ -1,25 +1,21 @@
 header {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    width: 1140px;
-    height: 36px;
     margin-top: 36px;
-    margin-inline: auto;
+    flex: 1;
     z-index: 1;
 }
 
 .logo {
     font-family: var(--font-family-logo);
     font-size: 28px;
-    width: 86px;
-    height: 36px;
     line-height: 1.2;
     color: var(--color-yellow);
 }
 
 .links {
-    display: inline-flex;
+    display: flex;
     gap: 60px;
 }
 
